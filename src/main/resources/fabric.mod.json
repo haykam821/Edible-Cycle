@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "ediblecycle",
+	"version": "${version}",
+	"name": "Edible Cycle",
+	"description": "Allows every item in the game to be obtained by eating another item.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Edible-Cycle#readme",
+		"issues": "https://github.com/haykam821/Edible-Cycle/issues",
+		"sources": "https://github.com/haykam821/Edible-Cycle"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.ediblecycle.EdibleCycle"
+		]
+	},
+	"mixins": [
+		"ediblecycle.mixin.json"
+	],
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://haykam.com/links/discord"
+			}
+		}
+	},
+	"license": "MIT",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric-api": "*",
+		"java": ">=21"
+	}
+}
